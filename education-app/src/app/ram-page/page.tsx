@@ -17,7 +17,7 @@ export default function HomePage() {
       </div>
       <br></br>
 
-      <div>
+      <div className="text-center">
         <h1>
           What's the Situation?
         </h1>
@@ -29,42 +29,47 @@ export default function HomePage() {
         <h2>
           Action Plan
         </h2>
+        <br></br>
       </div>
 
-      <div>
+      <div className="text-center">
         <h1>
           How Did We Collect Our Data?
         </h1>
         <h2>
           
         </h2>
+        <br></br>
       </div>
       
-      <div>
+      <div className="text-center">
         <h1>
           What Did We Do With the Given Data?
         </h1>
         <h2>
           
         </h2>
+        <br></br>
       </div>
       
-      <div>
+      <div className="text-center">
         <h1>
           What Did We Find Out?
         </h1>
         <h2>
           
         </h2>
+        <br></br>
       </div>
       
-      <div>
+      <div className="text-center">
         <h1>
           What Now?
         </h1>
         <h2>
           
         </h2>
+        <br></br>
       </div>
 
       <div className="text-center"><Link href="/">Back</Link></div>
