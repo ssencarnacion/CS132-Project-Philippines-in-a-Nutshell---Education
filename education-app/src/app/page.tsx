@@ -7,6 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return ( 
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      {/* <Home /> */}
       <Link href="/ram-page" className="text-center">Click here to go to Ram's page playground</Link>
       <br></br>
       <Link href="/steph-page" className="text-center">Click here to go to Steph's page playground</Link>
