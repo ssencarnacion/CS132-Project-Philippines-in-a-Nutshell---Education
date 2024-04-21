@@ -20,11 +20,7 @@ export default function Home() {
 
       <DataCollection />
 
-      <DataProcessing />
       
-      <DataAnalysis />
-
-      <WhatNow />
 
       
     </main>
