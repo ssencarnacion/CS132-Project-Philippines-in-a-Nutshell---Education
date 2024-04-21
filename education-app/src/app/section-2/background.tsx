@@ -8,10 +8,13 @@ export default function Background() {
         <h1 className="text-sky-500 font-bold text-3xl italic m-1">
           What's the Situation?
         </h1>
-        <p>Education is a right, not a privilege.</p>
+        
+        <p className="text-center text-black text-m w-3/5 m-auto mt-2.5">
+        <p className="font-bold">Education is a right, not a privilege.</p>
         <br></br>
         <p>
-          However, as true as it may be, this is not always the case. And despite having a steady increase in the number of students (source: "1 million more students enrolled this year – DepEd | Philstar.com"), many of our fellow countrymen still face challenges regarding access to quality education.
+        However, as true as it may be, this is not always the case. And despite having a steady increase in the number of students (<a href="https://www.philstar.com/headlines/2021/11/19/2142354/1-million-more-students-enrolled-year-deped" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>source: "1 million more students enrolled this year – DepEd | Philstar.com"</a>), many of our fellow countrymen still face challenges regarding access to quality education.
+        
         </p>
         <br></br>
         <p>
@@ -29,7 +32,7 @@ export default function Background() {
           </li>
           <li className="mt-2 font-bold">
             What are the Main Factors that Influence Education Access Levels?
-          </li>
+          </li> <br></br>
         </ol>
         
         <h2 className="text-sky-500 font-bold text-xl italic mt-4">
@@ -45,7 +48,7 @@ export default function Background() {
             </p>
             <p className="mt-2">
             <b>Alternative Hypothesis:</b> There are regional differences present in access to education.
-            </p>
+            </p><br></br>
           </div>
         </>
         <h2 className="text-sky-500 font-bold text-xl italic mt-4">
@@ -53,6 +56,7 @@ export default function Background() {
         </h2>
         <p>
           With the learnings that will bear fruit from this study, we hope to provide educators, researchers, and policymakers with insights that can guide them to formulate evidence-based policies and opportunities that aim to improve the overall educational landscape of the country.
+        </p>
         </p>
         <br></br>
       </div>
