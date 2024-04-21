@@ -18,7 +18,7 @@ export default function Background() {
         </p>
         <br></br>
         <p>
-        Every 5 to 6 years, the Philippine Statistics Authority conducts a nationwide survey known as the Functional Literacy, Education, and Mass Media Survey (FLEMMS). This periodical study delves into each household’s demographic background that could provide us with an insight about each one’s educational circumstances, socio-economic characteristics, and mass media exposure.
+        Every 5 to 6 years, the Philippine Statistics Authority conducts a nationwide survey known as the Functional Literacy, Education, and Mass Media Survey (FLEMMS). This periodical study delves into each household’s demographic background that could provide us with an insight about an individual’s various circumstances, such as their educational background, socio-economic characteristics, and mass media exposure. Using the latest iteration (2019) of the survey, the team is determined to provide new insights and inputs regarding the educational landscape of the country.
         </p>
         <h2 className="text-sky-500 font-bold text-xl italic mt-4">
           Research Question
@@ -55,7 +55,7 @@ export default function Background() {
           Action Plan
         </h2>
         <p>
-          With the learnings that will bear fruit from this study, we hope to provide educators, researchers, and policymakers with insights that can guide them to formulate evidence-based policies and opportunities that aim to improve the overall educational landscape of the country.
+        With the learnings that will be gained from this study, we aim to provide educators, researchers, and policymakers with evidence-based insights that can guide them to formulate policies and opportunities to improve overall educational landscape of the country starting at the grassroots of each region. By indentifying the regional disparities in education access that are in play, we hope to provide a better understanding of the root causes behind it.
         </p>
         </p>
         <br></br>
