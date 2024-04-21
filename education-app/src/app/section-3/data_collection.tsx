@@ -30,7 +30,7 @@ export default function DataCollection() {
     );
 }
 
-const Button_1 = ({ label, link}) => {
+const Button_1 = ({ label, link }: { label: string, link: string }) => {
     return (
       <Link href={link}>
         <button
