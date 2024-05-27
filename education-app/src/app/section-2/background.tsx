@@ -21,7 +21,7 @@ export default function Background() {
             <p className="text-justify mt-2">
               Our team wants to explore the situation through the following questions:<br /><br />
               What regional differences are present in Filipinos' access to education?<br /><br />
-              What are the Main Factors that Influence Education Access Levels?<br />
+              What are the main factors that influence education access levels?<br />
             </p>
           </div>
 
