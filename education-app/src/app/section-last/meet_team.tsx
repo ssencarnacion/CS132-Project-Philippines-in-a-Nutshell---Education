@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Steph from './images/steph.png';
 import Ysaac from './images/ysaac.jpg';
-
+import Ram from './images/ram.jpg';
 
 
 export default function MeetTeam() {
@@ -13,14 +13,14 @@ export default function MeetTeam() {
         <div className="flex justify-center mt-5 space-x-4">
           <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center">
             <Image
-              src={Steph}
+              src={Ram}
               alt="Ram Balatibat"
               width={100}
               height={100}
               className="rounded-full mb-4"
             />
             <h2 className="font-bold text-xl">Ram Balatibat</h2>
-            <p className="text-center mt-2">This is some dummy text for now.</p>
+            <p className="text-justify text-xs mt-2">Hello-hello! The name's Ram! At the time of writing this, I am a senior computer science student. I am an avid video game and game development enjoyer who also loves web development and has taken to heart software engineering. Outside academics, I love cooking, exercising, singing, learning how to play the guitar, dancing, and I am someone who absolutely loves learning about everything that can help me make sense of the world and myself!</p>
           </div>
           <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center">
             <Image
@@ -31,7 +31,7 @@ export default function MeetTeam() {
               className="rounded-full mb-4"
             />
             <h2 className="font-bold text-xl">Stephen Encarnacion</h2>
-            <p className="text-justify text-xs mt-2">Hello! I'm Steph, a senior student from UP Diliman. As an aspiring web developer, I aim to use my knowledge in programming and graphic designing to create visually appealing pages. Outside of academics, I love to immerse myself in the mundaneness of life.  </p>
+            <p className="text-justify text-xs mt-2">Yo! I'm Steph, a senior student from UP Diliman. As an aspiring web developer, I aim to use my knowledge in programming and graphic designing to create visually appealing pages. Outside of academics, I love to immerse myself in the mundaneness of life.  </p>
           </div>
           <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center">
             <Image

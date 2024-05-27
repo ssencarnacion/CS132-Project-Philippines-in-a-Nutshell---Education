@@ -52,6 +52,34 @@ export default function DataAnalysis() {
                 Other factors such as Urbanity, Number of Total Members in their Household, Familiarity and Willingness to study in Online Distance Learning, and Sex have "very low" correlation (regardless if positive or negative).
                 </p>
                 <br />
+
+
+                <p className="text-justify text-black text-m mt-2 text-2xl">
+                    <i><span className="text-sky-500 font-bold">Statistical Test</span></i><br></br>
+                    <p className="text-justify text-black text-m mt-2 text-xl">The study used chi-square test for association/independence since we want to know the regional differences of education access which are both considered as categorical data. We assumed a confidence level of 95% (alpha = 0.05). Here's what we obtained: <br />
+                    <div className="flex mt-5">
+
+                        <div className="text-center w-1/2 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300">
+                            <h1 className="font-bold text-xl">CHI-SQUARED STATISTIC</h1>
+                            <p className="mt-2">
+                            446.80
+                            
+                            </p>
+                        </div>
+
+                        <div className="text-center w-1/2 border border-black rounded-lg p-4 ml-4 hover:bg-gray-300 transition duration-300">
+                            <h1 className="font-bold text-xl">P-VALUE</h1>
+                            <p className="mt-2">
+                            5.42 &times; 10<sup>-85</sup>
+                            
+                            </p>
+                        </div>
+                        </div>
+                        <br />The p-value is less than a = 0.05 (95 % confidence level). Therefore the null hypothesis is rejected, showing that there are regional differences present in access to education. <br /><br />
+                    Results show that education access are associated with the region, which implies that education access are significantly different accross the regions in the Philippines. <br />
+                    Make sure to check out our <a href="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}><b>EXPLORATORY DATA ANALYSIS!</b></a></p>
+                </p>
+
             </div>
         </>
     );
