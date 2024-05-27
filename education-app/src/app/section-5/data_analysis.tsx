@@ -76,7 +76,7 @@ export default function DataAnalysis() {
                         </div>
                         </div>
                         <br />The p-value is less than a = 0.05 (95 % confidence level). Therefore the null hypothesis is rejected, showing that there are regional differences present in access to education. <br /><br />
-                    Results show that education access are associated with the region, which implies that education access are significantly different accross the regions in the Philippines. <br />
+                    Results show that education access are associated with the region, which implies that education access are significantly different accross the regions in the Philippines. <br /><br />
                     Make sure to check out our <a href="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}><b>EXPLORATORY DATA ANALYSIS!</b></a></p>
                 </p>
 
