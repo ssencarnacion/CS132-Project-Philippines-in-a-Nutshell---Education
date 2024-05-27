@@ -56,7 +56,7 @@ export default function DataAnalysis() {
 
                 <p className="text-justify text-black text-m mt-2 text-2xl">
                     <i><span className="text-sky-500 font-bold">Statistical Test</span></i><br></br>
-                    <p className="text-justify text-black text-m mt-2 text-xl">The study used chi-square test for association/independence since we want to know the regional differences of education access which are both considered as categorical data. We assumed a confidence level of 95% (alpha = 0.05). Here's what we obtained: <br />
+                    <p className="text-justify text-black text-m mt-2 text-xl">The study used <b>chi-square test</b> for association/independence since we want to know the regional differences of education access which are both considered as categorical data. We assumed a confidence level of 95% (alpha = 0.05). Here's what we obtained: <br />
                     <div className="flex mt-5">
 
                         <div className="text-center w-1/2 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300">
