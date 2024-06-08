@@ -7,20 +7,23 @@ export default function Introduction() {
   return (
     <>
       <div className="mt-10 px-36">
+
         <p className="text-center text-black text-3xl max-w-5xl m-auto mt-2.5 mix-blend-darken">
           Hi! We are
         </p>
         
-        <div className="flex place-content-center">
-        <Image
-            src={headlineEffect}
-            alt="Example Image"
-            
-            className="w-1/2 absolute mix-blend-lighten"
-          />
+        <div className="transition-opacity ease-in duration-700">
+          <div className="flex place-content-center">
+          <Image
+              src={headlineEffect}
+              alt="Example Image"
+              
+              className="w-1/2 absolute mix-blend-lighten"
+              unoptimized
+            />
+          </div>
+          <h1 className="text-black text-9xl font-bold italic m-0 text-center">E-YOUTH</h1>
         </div>
-        <h1 className="text-black text-9xl font-bold italic m-0 text-center">E-YOUTH</h1>
-
         {/* TO-DO: Add text transition/transformation turning E-Youth to Education of the Youth*/}
         <p className="text-sky-500 font-bold text-5xl italic m-1 text-center mix-blend-darken">EDUCATION OF THE YOUTH</p>
         

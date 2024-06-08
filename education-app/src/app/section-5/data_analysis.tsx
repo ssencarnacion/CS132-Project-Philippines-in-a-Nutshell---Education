@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Bar from './images/bar graph.jpg';
-import Choropleth from './images/choropleth.jpg';
+import Bar from './images/bar graph.png';
+import Choropleth from './images/choropleth.png';
 import Matrix from './images/correlation matrix.png';
 
 export default function DataAnalysis() {
@@ -16,10 +16,10 @@ export default function DataAnalysis() {
                 </p>
 
                 <div className="flex mt-2">
-                    <div className="relative flex-2" style={{ height: '350px', width: '60%', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
+                    <div className="relative flex-2" style={{ height: '500px', width: '50%', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
                         <Image src={Bar} alt="Bar Graph" layout="fill" objectFit="contain" />
                     </div>
-                    <div className="relative flex-1 ml-4" style={{ height: '350px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
+                    <div className="relative flex-1 ml-4" style={{ height: '500px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
                         <Image src={Choropleth} alt="Choropleth Map" layout="fill" objectFit="contain" />
                     </div>
                 </div>

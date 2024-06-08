@@ -21,6 +21,8 @@ export default function Home() {
 
       <DataCollection />
 
+      <DataProcessing />
+
       <DataAnalysis />
       
       <MeetTeam />
