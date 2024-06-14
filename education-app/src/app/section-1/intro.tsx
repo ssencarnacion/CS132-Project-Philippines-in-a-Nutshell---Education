@@ -31,7 +31,7 @@ export default function Introduction() {
         <p className="text-black font-bold text-8xl italic m-1 text-center">ACCESS</p> 
         <p className="text-black font-bold text-8xl italic m-1 text-center">GRANTED</p>
         
-        <p className="text-center text-black text-xl m-auto mt-2.5 mix-blend-darken"> a data science endeavor aiming to explore the educational landscape of the Philippines. With the learnings from our data science course at our disposal, we aim to obtain a deeper understanding of the things that play a key role in the education access of Filipinos.</p> 
+        <p className="text-center text-black text-xl m-auto mt-2.5 mix-blend-darken"> A data science endeavor aiming to explore the educational landscape of the Philippines. With the learnings from our data science course at our disposal, we aim to obtain a deeper understanding of the things that play a key role in the education access of Filipinos.</p> 
         
         
         <div className="flex justify-center mt-6 mix-blend-darken">
