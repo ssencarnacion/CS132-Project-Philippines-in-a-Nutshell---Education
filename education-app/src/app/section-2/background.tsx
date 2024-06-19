@@ -9,7 +9,7 @@ export default function Background() {
         </h1>
         <p className="text-justify text-black text-m mt-2 text-xl">
          
-          However, as true as it may be, this is not always the case. And despite having a steady increase in the number of students (<a href="https://www.philstar.com/headlines/2021/11/19/2142354/1-million-more-students-enrolled-year-deped" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>source: "1 million more students enrolled this year – DepEd | Philstar.com"</a>), many of our fellow countrymen still face challenges regarding access to quality education. <br /> <br />
+          However, as true as it may be, this is not always the case. And despite having a steady increase in the number of students (<a href="https://www.philstar.com/headlines/2021/11/19/2142354/1-million-more-students-enrolled-year-deped" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>Cabrera, 2021</a>), many of our fellow countrymen still face challenges regarding access to quality education. <br /> <br />
           
           Every 5 to 6 years, the Philippine Statistics Authority conducts a nationwide survey known as the Functional Literacy, Education, and Mass Media Survey <b>(FLEMMS)</b>. This periodical study delves into each <b>household’s demographic background</b> that could provide us with an insight about an individual’s various circumstances, such as their educational background, socio-economic characteristics, and mass media exposure. Using the latest iteration (2019) of the survey, the team is determined to provide new insights and inputs regarding the educational landscape of the country.
         </p>
