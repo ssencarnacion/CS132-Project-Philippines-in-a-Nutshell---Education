@@ -46,7 +46,7 @@ export default function Home() {
       <nav className="sticky">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-bold text-lg">
-              ACCESS GRANTED
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ACCESS GRANTED
           </div>
           <div className="space-x-4">
             <a href="#intro">Introduction</a>

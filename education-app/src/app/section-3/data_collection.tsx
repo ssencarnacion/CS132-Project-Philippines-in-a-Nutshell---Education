@@ -23,7 +23,7 @@ export default function DataCollection() {
           </div>
           <div className="w-full">
             <p className="text-justify text-black text-m mt-2 text-xl">
-              Our data was acquired through the Philippine Statistics Authority’s Microdata Catalog on their FLEMMS 2019 Survey.
+              Our data was acquired through the Philippine Statistics Authority’s Microdata Catalog on their <b>FLEMMS 2019 Survey.</b>
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function DataCollection() {
           </div>
           <div className="w-full">
             <p className="text-justify text-black text-m mt-2 text-xl">
-              Utilizing <b><i>proportional stratified random sampling</i></b> by region, we were able to trim down the entries to 10% (~16,900) of the population, all while keeping a proportional representation of the whole. We’ve also selectively kept certain features that are relevant to the study, given that the original dataset contains over 130 features.
+              Utilizing <b><i>proportional stratified random sampling</i></b> by region, we were able to trim down the entries to 10% (~16,900) of the population, all while keeping a proportional representation of the whole. We’ve also <b>selectively kept certain features</b> that are relevant to the study, given that the original dataset contains over 130 features.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function DataCollection() {
           </div>
           <div className="w-full">
             <p className="text-justify text-black text-m mt-2 text-xl">
-              In our Python notebook, particularly in the earlier parts, we've modified column/feature names for easier readability, cleaned the data and replaced invalid or null entries with an appropriate numerical entry (in this case, zeroes).
+              In our Python notebook, particularly in the earlier parts, we've <b>modified column/feature names</b> for easier readability, <b>cleaned the data</b> and <b>replaced invalid or null entries</b> with an appropriate numerical entry (in this case, zeroes).
             </p>
           </div>
         </div>

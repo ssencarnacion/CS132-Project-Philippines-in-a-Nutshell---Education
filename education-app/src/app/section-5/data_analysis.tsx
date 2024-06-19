@@ -12,7 +12,7 @@ export default function DataAnalysis() {
                 </h1>
                 <p className="text-justify text-black text-m mt-2 text-2xl">
                     <i><span className="text-sky-500 font-bold">What regional differences are present in Filipinos' access to education?</span></i><br />
-                    <span className="text-justify text-black text-m mt-2 text-xl">To acquire an answer to this research question, we utilized a bar graph and a choropleth map in order to visualize the results.</span>
+                    <span className="text-justify text-black text-m mt-2 text-xl">To acquire an answer to this research question, we utilized a <b>bar graph </b>and a <b>choropleth map </b>in order to visualize the results.</span>
                 </p>
 
                 <div className="flex mt-2">
@@ -27,10 +27,10 @@ export default function DataAnalysis() {
                     We can see that there is indeed a disparity in access to education across the different regions in the Philippines. The region with the highest access is <b>NCR</b>, while the region with the least is <b>BARMM</b>.
                 </p>
 
-                <br /><br />
+                <br />
                 <p className="text-justify text-black text-m mt-2 text-2xl">
                     <i><span className="text-sky-500 font-bold">What are the main factors that influence education access levels?</span></i><br />
-                    <span className="text-justify text-black text-m mt-2 text-xl">As for our second research question, we utilized a correlation matrix to see which among our features correlate with <b>ACCESS</b> to education.</span>
+                    <span className="text-justify text-black text-m mt-2 text-xl">As for our second research question, we utilized a <b>correlation matrix</b> to see which among our features correlate with <b>ACCESS</b> to education.</span>
                 </p>
 
                 <div className="flex mt-2">
@@ -43,9 +43,9 @@ export default function DataAnalysis() {
                             If our criteria is selecting the top 3 features/factors that correlate with ACCESS to Education, we have:
                         </p>
                         <ul className="list-disc ml-5 mt-2 text-xl">
-                            <li>Having Basic Literacy</li>
-                            <li>Having High Literacy Levels</li>
-                            <li>Being Functionally Literate</li>
+                            <li><b>Having Basic Literacy</b></li>
+                            <li><b>Having High Literacy Levels</b></li>
+                            <li><b>Being Functionally Literate</b></li>
                         </ul>
                         <p className="text-justify text-black text-m mt-4 text-xl">
                             But it is worthy to note that while these three have the highest absolute correlation values, they are still labeled as <b>low correlation</b>, regardless if positive or negative correlation.
@@ -74,9 +74,9 @@ export default function DataAnalysis() {
                 </div>
 
                 <p className="text-justify text-black text-m mt-2 text-xl">
-                    The p-value is less than a = 0.05 (95 % confidence level). Therefore the null hypothesis is rejected, showing that there are regional differences present in access to education.
+                    The p-value is less than a = 0.05 (95 % confidence level). Therefore the <b>null hypothesis is rejected</b>, showing that <b>there are regional differences present</b> in access to education.
                     <br /><br />
-                    Results show that education access is associated with the region, which implies that education access is significantly different across the regions in the Philippines.
+                    With the presence of regional differences on education access across the various regions of the Philippines, it is implied that there are a <b>variety of regional factors</b> that influence education access, which are not explored and in the scope of our dataset. These factors may include <b>political factors, economic state of region/province, incomes of each household, cultural factors, and other more</b> which could be distinctive in each region that could explain these regional differences. Individual factors such as basic literacy, functional literacy, and literacy levels have an influence on education access, but it could have a minimal impact or influence on education access due to its low correlation value based on the results. Thus, this limits us to explore different interpretations on underlying factors that influence and affect educational access.
                 </p>
             </div>
         </>
