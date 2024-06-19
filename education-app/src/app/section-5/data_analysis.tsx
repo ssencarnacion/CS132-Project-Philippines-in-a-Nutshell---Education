@@ -38,7 +38,7 @@ export default function DataAnalysis() {
                         <Image src={Matrix} alt="Correlation Matrix" layout="fill" objectFit="contain" />
                     </div>
 
-                    <div className="ml-4" style={{ flex: '1 1 40%' }}>
+                    <div className="ml-10" style={{ flex: '1 1 40%' }}>
                         <p className="text-justify text-black text-m mt-2 text-xl">
                             If our criteria is selecting the top 3 features/factors that correlate with ACCESS to Education, we have:
                         </p>

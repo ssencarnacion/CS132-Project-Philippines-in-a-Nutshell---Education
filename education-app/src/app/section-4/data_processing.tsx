@@ -2,12 +2,13 @@ export default function DataProcessing() {
     return (
         <>
             <div className="mt-10 px-0 md:px-18 lg:px-36 text-left">
+            <h1 className="text-4xl font-bold text-left">Granting Access</h1>
                 <p className="text-justify text-black text-m mt-2 text-xl">
-                    In our <a href="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>Python notebook,</a> particularly in the earlier parts, we've modified column/feature names for easier readability, cleaned the data and replaced invalid or null entries with an appropriate numerical entry (in this case, zeroes), and added a new feature called "ACCESS" which indicates if the respondent has access to education. Note that the criteria for determining which entry has access to education was settled by the researchers based on the notion that:
+                    We added a new feature called <b>"ACCESS," </b>which indicates if the respondent has access to education. Note that the criteria for determining which entry has access to education was settled by the researchers based on the notion that:
                 </p>
                 <br></br>
-                <p className="text-justify text-black text-m mt-2 text-xl">
-                    <b><i>"Access to education includes: on-schedule enrolment and progression at an appropriate age, regular attendance, learning consistent with national achievement norms, a learning environment that is safe enough to allow learning to take place, and opportunities to learn that are equitably distributed" (Lewin, 2015: 29).</i></b>
+                <p className="text-justify text-blue-700 text-m mt-2 text-xl">
+                    <i>"Access to education includes: on-schedule enrolment and progression at an appropriate age, regular attendance, learning consistent with national achievement norms, a learning environment that is safe enough to allow learning to take place, and opportunities to learn that are equitably distributed" (Lewin, 2015: 29).</i>
                     {/* Lewin, Keith M. 2015. Educational access, equity, and development: planning to make rights realities. Fundamentals of Educational Planning 98. Paris: UNESCO-IIEP. */}
                 </p>
                 <br></br>
@@ -31,6 +32,7 @@ export default function DataProcessing() {
                 <p className="text-justify text-black text-m mt-4 text-xl">
                     If the entry fits one of the criteria, their <b>"ACCESS"</b> column is marked with <b>"true"</b>, otherwise it's marked with <b>"false."</b>
                 </p>
+                <hr className="my-6 border-gray-400" /> 
             </div>
         </>
     );

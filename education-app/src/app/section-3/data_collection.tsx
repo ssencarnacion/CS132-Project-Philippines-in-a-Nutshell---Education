@@ -1,47 +1,74 @@
 import Link from "next/link";
-import Button from "../components/navigation/navbar/Button";
 
 export default function DataCollection() {
   return (
     <>
       <div className="mt-10 px-0 md:px-18 lg:px-36">
         <h1 className="text-left font-bold text-4xl italic m-1">
-          How Did We Work With Our Data?
+          How Did We Work With Our Data? <br></br>
         </h1>
-        <div className="mt-6 flex-column justify">
-          <Button_1 link="https://docs.google.com/spreadsheets/d/1SZxePOWx7izLJPfivlq0bnJCWGnRPBXhocDAE-m7UqY/edit?usp=sharing"  label="FLEMMS Dataset" />
-          <Button_1 link="https://docs.google.com/document/d/1PHHBmDV-3PND5Hadw0EOlzy3_J7m5sKc3mBT6vxEaP0/edit?usp=sharing" label="Sampling Method" />
-          <Button_2 link="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb" label="Exploratory Data Analysis" />
-        </div>
-        <p className="text-justify text-black text-m mt-2 text-xl">
-          Our data was acquired through the Philippine Statistics Authority’s Microdata Catalog on their FLEMMS 2019 Survey. Utilizing <b><i>proportional stratified random sampling</i></b> by region, we were able to trim down the entries to 10% of the population, all while keeping a proportional representation of the whole. We’ve also selectively kept certain features that are relevant to the study, given that the original dataset contains over 130 features.
-        </p>
 
+        <div className="mt-6 flex">
+          <div className="w-3/5 flex justify-center items-center">
+            <h1 className="text-4xl font-bold text-center">
+              <a 
+                href="https://docs.google.com/spreadsheets/d/1SZxePOWx7izLJPfivlq0bnJCWGnRPBXhocDAE-m7UqY/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-sky-500 underline"
+              >
+                Data Collection
+              </a>
+            </h1>
+          </div>
+          <div className="w-full">
+            <p className="text-justify text-black text-m mt-2 text-xl">
+              Our data was acquired through the Philippine Statistics Authority’s Microdata Catalog on their FLEMMS 2019 Survey.
+            </p>
+          </div>
+        </div>
+        <hr className="my-6 border-gray-400" /> 
+        <div className="mt-6 flex">
+          <div className="w-3/5 flex justify-center items-center">
+            <h1 className="text-4xl font-bold text-center">
+              <a 
+                href="https://docs.google.com/document/d/1PHHBmDV-3PND5Hadw0EOlzy3_J7m5sKc3mBT6vxEaP0/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-sky-500 underline"
+              >
+                Sampling Method
+              </a>
+            </h1>
+          </div>
+          <div className="w-full">
+            <p className="text-justify text-black text-m mt-2 text-xl">
+              Utilizing <b><i>proportional stratified random sampling</i></b> by region, we were able to trim down the entries to 10% (~16,900) of the population, all while keeping a proportional representation of the whole. We’ve also selectively kept certain features that are relevant to the study, given that the original dataset contains over 130 features.
+            </p>
+          </div>
+        </div>
+        <hr className="my-6 border-gray-400" /> 
+        <div className="mt-6 flex">
+          <div className="w-3/5 flex justify-center items-center">
+            <h1 className="text-4xl font-bold text-center">
+              <a 
+                href="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-sky-500 underline"
+              >
+                Preprocessing
+              </a>
+            </h1>
+          </div>
+          <div className="w-full">
+            <p className="text-justify text-black text-m mt-2 text-xl">
+              In our Python notebook, particularly in the earlier parts, we've modified column/feature names for easier readability, cleaned the data and replaced invalid or null entries with an appropriate numerical entry (in this case, zeroes).
+            </p>
+          </div>
+        </div>
+        <hr className="my-6 border-gray-400" /> 
       </div>
     </>
   );
 }
-
-const Button_1 = ({ label, link }: { label: string, link: string }) => {
-  return (
-    <Link href={link}>
-      <button
-        className="p-2 bg-blue-700 text-white rounded cursor-pointer m-1 text-sm hover:bg-indigo-800 w-full md:w-36 h-10 text-sm" // Adjusted width and height
-      >
-        {label}
-      </button>
-    </Link>
-  );
-};
-
-const Button_2 = ({ label, link }: { label: string, link: string }) => {
-  return (
-    <Link href={link}>
-      <button
-        className="p-2 bg-blue-700 text-white rounded cursor-pointer m-1 text-sm hover:bg-indigo-800 w-full md:w-64 h-10 text-sm" // Adjusted width and height
-      >
-        {label}
-      </button>
-    </Link>
-  );
-};
