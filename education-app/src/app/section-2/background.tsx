@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Background() {
   return (
     <>
-      <div className="mt-10 pl-36 pr-36">
+      <div className="mt-10 px-0 md:px-18 lg:px-36">
         <h1 className="text-left font-bold text-4xl italic">
           What's the Situation?
         </h1>
@@ -14,8 +14,8 @@ export default function Background() {
           Every 5 to 6 years, the Philippine Statistics Authority conducts a nationwide survey known as the Functional Literacy, Education, and Mass Media Survey (FLEMMS). This periodical study delves into each household’s demographic background that could provide us with an insight about an individual’s various circumstances, such as their educational background, socio-economic characteristics, and mass media exposure. Using the latest iteration (2019) of the survey, the team is determined to provide new insights and inputs regarding the educational landscape of the country.
         </p>
 
-        <div className="flex mt-5">
-          <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300">
+        <div className="flex-column md:flex mt-5">
+          <div className="mt-5 md:mt-0 md:w-1/3 border border-black rounded-lg p-4 mx-2 hover:bg-gray-300 transition duration-300">
             <h2 className="font-bold text-xl">Research Questions</h2>
             <p className="text-justify mt-2">
               Our team wants to explore the situation through the following questions:<br /><br />
@@ -24,7 +24,7 @@ export default function Background() {
             </p>
           </div>
 
-          <div className="w-1/3 border border-black rounded-lg p-4 ml-4 hover:bg-gray-300 transition duration-300">
+          <div className="mt-5 md:mt-0 md:w-1/3 md:w-1/3 border border-black rounded-lg p-4 mx-2 hover:bg-gray-300 transition duration-300">
             <h2 className="font-bold text-xl">Hypotheses</h2>
             <p className="text-justify mt-2">
               Given the study, our team formulated the following hypotheses:<br /><br />
@@ -33,7 +33,7 @@ export default function Background() {
             </p>
           </div>
 
-          <div className="w-1/3 border border-black rounded-lg p-4 ml-4 hover:bg-gray-300 transition duration-300">
+          <div className="mt-5 md:mt-0 md:w-1/3 md:w-1/3 border border-black rounded-lg p-4 mx-2 hover:bg-gray-300 transition duration-300">
             <h2 className="font-bold text-xl">Action Plan</h2>
             <p className="text-justify mt-2">
             Provide educators, researchers, and policymakers with evidence-based insights that can guide them to formulate policies and opportunities to improve the overall educational landscape of the country starting at the grassroots of each region. By identifying the regional disparities in education access that are in play, we hope to provide a better understanding of the root causes behind it.

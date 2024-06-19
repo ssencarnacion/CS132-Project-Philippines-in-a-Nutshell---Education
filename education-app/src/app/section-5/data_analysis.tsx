@@ -6,7 +6,7 @@ import Matrix from './images/correlation matrix.png';
 export default function DataAnalysis() {
     return (
         <>
-            <div className="mt-10 pl-36 pr-36 text-left">
+            <div className="mt-10 px-0 md:px-18 lg:px-36 text-left">
                 <h1 className="font-bold text-4xl italic m-1">
                     What Did We Find Out?
                 </h1>
@@ -34,7 +34,7 @@ export default function DataAnalysis() {
                 </p>
 
                 <div className="flex mt-2">
-                    <div className="relative" style={{ flex: '1 1 60%', height: '510px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
+                    <div className="relative w-full" style={{ flex: '1 1 60%', height: '510px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
                         <Image src={Matrix} alt="Correlation Matrix" layout="fill" objectFit="contain" />
                     </div>
 

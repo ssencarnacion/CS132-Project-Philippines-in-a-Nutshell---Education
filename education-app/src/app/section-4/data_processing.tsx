@@ -1,7 +1,7 @@
 export default function DataProcessing() {
     return (
         <>
-            <div className="mt-10 pl-36 pr-36 text-left">
+            <div className="mt-10 px-0 md:px-18 lg:px-36 text-left">
                 <p className="text-justify text-black text-m mt-2 text-xl">
                     In our <a href="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>Python notebook,</a> particularly in the earlier parts, we've modified column/feature names for easier readability, cleaned the data and replaced invalid or null entries with an appropriate numerical entry (in this case, zeroes), and added a new feature called "ACCESS" which indicates if the respondent has access to education. Note that the criteria for determining which entry has access to education was settled by the researchers based on the notion that:
                 </p>

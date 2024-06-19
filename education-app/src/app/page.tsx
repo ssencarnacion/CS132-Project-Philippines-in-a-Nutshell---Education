@@ -13,7 +13,11 @@ import MeetTeam from './section-last/meet_team';
 
 export default function Home() {
   return ( 
-    <main className="flex-col items-center text-center p-24 bg-white">
+    <>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    </head>
+    <main className="flex-col items-center text-center bg-white p-10 md:p-12">
       {/* <Home /> */}
       <Introduction />
 
@@ -30,5 +34,6 @@ export default function Home() {
       
       
     </main>
+    </>
   );
 }
