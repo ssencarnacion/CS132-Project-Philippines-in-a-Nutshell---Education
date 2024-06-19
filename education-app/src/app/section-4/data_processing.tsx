@@ -16,15 +16,14 @@ export default function DataProcessing() {
                     As such, the particular criteria we settled in determining <b>one's state of having access to education</b> is when the person, during the time of the survey:
                 </p>
                 
-                <div className="flex space-x-4 mt-4">
-                    <div className="flex-1 p-4 border border-black rounded-lg">
-                        <br></br>
+                <div className="block md:flex mt-4">
+                    <div className="flex-1 p-4 border border-black rounded-lg m-2">
                         <p className="text-xl text-center">is <b><i>currently attending</i></b> school</p>
                     </div>
-                    <div className="flex-1 p-4 border border-black rounded-lg">
+                    <div className="flex-1 p-4 border border-black rounded-lg m-2">
                         <p className="text-xl text-center">is 17 years or older and has graduated in High School or Senior High School</p>
                     </div>
-                    <div className="flex-1 p-4 border border-black rounded-lg">
+                    <div className="flex-1 p-4 border border-black rounded-lg m-2">
                         <p className="text-xl text-center">is 12-17 years old, and has attended Grades 7 to 12</p>
                     </div>
                 </div>

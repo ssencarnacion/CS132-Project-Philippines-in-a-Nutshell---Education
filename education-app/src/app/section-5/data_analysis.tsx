@@ -15,11 +15,11 @@ export default function DataAnalysis() {
                     <span className="text-justify text-black text-m mt-2 text-xl">To acquire an answer to this research question, we utilized a <b>bar graph </b>and a <b>choropleth map </b>in order to visualize the results.</span>
                 </p>
 
-                <div className="flex mt-2">
-                    <div className="relative flex-2" style={{ height: '500px', width: '50%', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
+                <div className="block lg:flex mt-2">
+                    <div className="relative flex-2 my-2 mr-4 w-full lg:w-1/2" style={{ height: '500px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
                         <Image src={Bar} alt="Bar Graph" layout="fill" objectFit="contain" />
                     </div>
-                    <div className="relative flex-1 ml-4" style={{ height: '500px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
+                    <div className="relative flex-1 my-2 w-full lg:w-1/2" style={{ height: '500px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
                         <Image src={Choropleth} alt="Choropleth Map" layout="fill" objectFit="contain" />
                     </div>
                 </div>
@@ -33,12 +33,12 @@ export default function DataAnalysis() {
                     <span className="text-justify text-black text-m mt-2 text-xl">As for our second research question, we utilized a <b>correlation matrix</b> to see which among our features correlate with <b>ACCESS</b> to education.</span>
                 </p>
 
-                <div className="flex mt-2">
+                <div className="block lg:flex mt-2">
                     <div className="relative w-full" style={{ flex: '1 1 60%', height: '510px', borderRadius: '15px', overflow: 'hidden', border: '2px solid black' }}>
                         <Image src={Matrix} alt="Correlation Matrix" layout="fill" objectFit="contain" />
                     </div>
 
-                    <div className="ml-10" style={{ flex: '1 1 40%' }}>
+                    <div className="lg:ml-10" style={{ flex: '1 1 40%' }}>
                         <p className="text-justify text-black text-m mt-2 text-xl">
                             If our criteria is selecting the top 3 features/factors that correlate with ACCESS to Education, we have:
                         </p>

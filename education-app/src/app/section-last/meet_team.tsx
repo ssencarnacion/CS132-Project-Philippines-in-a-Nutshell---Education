@@ -10,8 +10,8 @@ export default function MeetTeam() {
         <h1 className="font-bold text-left text-4xl italic m-1 mt-10">
           Meet the Team!
         </h1>
-        <div className="flex justify-center mt-5 space-x-4">
-          <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center">
+        <div className="block md:flex justify-center mt-5">
+          <div className="w-full md:w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center my-2 md:mx-1">
             <Image
               src={Ram}
               alt="Ram Balatibat"
@@ -22,7 +22,7 @@ export default function MeetTeam() {
             <h2 className="font-bold md:text-l lg:text-xl">Ram Balatibat</h2>
             <p className="text-justify text-xs mt-2">Hello-hello! The name's Ram! At the time of writing this, I am a senior computer science student. I am an avid video game and game development enjoyer who also loves web development and has taken to heart software engineering. Outside academics, I love cooking, exercising, singing, learning how to play the guitar, dancing, and I am someone who absolutely loves learning about everything that can help me make sense of the world and myself!</p>
           </div>
-          <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center">
+          <div className="w-full md:w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center my-2 md:mx-1">
             <Image
               src={Steph}
               alt="Steph Encarnacion"
@@ -33,7 +33,7 @@ export default function MeetTeam() {
             <h2 className="font-bold md:text-l lg:text-xl">Stephen Encarnacion</h2>
             <p className="text-justify text-xs mt-2">Yo! I'm Steph, a senior student from UP Diliman. As an aspiring web developer, I aim to use my knowledge in programming and graphic designing to create visually appealing pages. Outside of academics, I love to immerse myself in the mundaneness of life.  </p>
           </div>
-          <div className="w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center">
+          <div className="w-full md:w-1/3 border border-black rounded-lg p-4 hover:bg-gray-300 transition duration-300 flex flex-col items-center my-2 md:mx-1">
             <Image
               src={Ysaac}
               alt="Ysaac Villamil"

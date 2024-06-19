@@ -8,8 +8,8 @@ export default function DataCollection() {
           How Did We Work With Our Data? <br></br>
         </h1>
 
-        <div className="mt-6 flex">
-          <div className="w-3/5 flex justify-center items-center">
+        <div className="center mt-6 block md:flex">
+          <div className="w-full md:w-3/5 flex justify-center items-center">
             <h1 className="text-4xl font-bold text-center">
               <a 
                 href="https://docs.google.com/spreadsheets/d/1SZxePOWx7izLJPfivlq0bnJCWGnRPBXhocDAE-m7UqY/edit?usp=sharing" 
@@ -28,8 +28,8 @@ export default function DataCollection() {
           </div>
         </div>
         <hr className="my-6 border-gray-400" /> 
-        <div className="mt-6 flex">
-          <div className="w-3/5 flex justify-center items-center">
+        <div className="center mt-6 block md:flex">
+          <div className="w-full md:w-3/5 flex justify-center items-center">
             <h1 className="text-4xl font-bold text-center">
               <a 
                 href="https://docs.google.com/document/d/1PHHBmDV-3PND5Hadw0EOlzy3_J7m5sKc3mBT6vxEaP0/edit?usp=sharing" 
@@ -48,8 +48,8 @@ export default function DataCollection() {
           </div>
         </div>
         <hr className="my-6 border-gray-400" /> 
-        <div className="mt-6 flex">
-          <div className="w-3/5 flex justify-center items-center">
+        <div className="center mt-6 block md:flex">
+          <div className="w-full md:w-3/5 flex justify-center items-center">
             <h1 className="text-4xl font-bold text-center">
               <a 
                 href="https://colab.research.google.com/drive/1MsBPA2REvD_MQbSKrXNkVlpgwO0iu7Rb?usp=sharing" 

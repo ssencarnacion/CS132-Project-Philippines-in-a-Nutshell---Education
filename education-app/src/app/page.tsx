@@ -45,16 +45,16 @@ export default function Home() {
       </head>
       <nav className="sticky">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-lg">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ACCESS GRANTED
+          <div className="text-white font-bold text-lg ml-5">
+            ACCESS GRANTED
           </div>
-          <div className="space-x-4">
-            <a href="#intro">Introduction</a>
+          <div className="text-sm md:text-md lg:text-lg lg:space-x-4">
+            <a href="#intro" className="hidden md:inline">Introduction</a>
             <a href="#background">Background</a>
             <a href="#data-collection">Methodology</a>
             <a href="#data-analysis">Data Analysis</a>
             <a href="#conclu">Conclusion</a>
-            <a href="#meet-team">Meet the Team</a>
+            <a href="#meet-team" className="hidden md:inline">Meet the Team</a>
           </div>
         </div>
       </nav>
