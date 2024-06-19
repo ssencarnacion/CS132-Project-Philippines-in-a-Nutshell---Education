@@ -22,10 +22,10 @@ export default function DataProcessing() {
                         <p className="text-xl text-center">is <b><i>currently attending</i></b> school</p>
                     </div>
                     <div className="flex-1 p-4 border border-black rounded-lg">
-                        <p className="text-xl text-center">is 17 years or older and has graduated in High School or Senior High School;</p>
+                        <p className="text-xl text-center">is 17 years or older and has graduated in High School or Senior High School</p>
                     </div>
                     <div className="flex-1 p-4 border border-black rounded-lg">
-                        <p className="text-xl text-center">is 12-17 years old, and has attended Grades 7 to 12;</p>
+                        <p className="text-xl text-center">is 12-17 years old, and has attended Grades 7 to 12</p>
                     </div>
                 </div>
 
