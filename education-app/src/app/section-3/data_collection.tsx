@@ -5,7 +5,7 @@ export default function DataCollection() {
   return (
     <>
       <div className="mt-10 pl-36 pr-36">
-        <h1 className="text-left font-bold text-3xl italic m-1">
+        <h1 className="text-left font-bold text-4xl italic m-1">
           How Did We Work With Our Data?
         </h1>
         <div className="mt-6 flex justify">

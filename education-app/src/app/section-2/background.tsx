@@ -4,7 +4,7 @@ export default function Background() {
   return (
     <>
       <div className="mt-10 pl-36 pr-36">
-        <h1 className="text-left font-bold text-3xl italic">
+        <h1 className="text-left font-bold text-4xl italic">
           What's the Situation?
         </h1>
         <p className="text-justify text-black text-m mt-2 text-xl">

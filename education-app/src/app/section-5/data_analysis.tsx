@@ -7,7 +7,7 @@ export default function DataAnalysis() {
     return (
         <>
             <div className="mt-10 pl-36 pr-36 text-left">
-                <h1 className="font-bold text-3xl italic m-1">
+                <h1 className="font-bold text-4xl italic m-1">
                     What Did We Find Out?
                 </h1>
                 <p className="text-justify text-black text-m mt-2 text-2xl">

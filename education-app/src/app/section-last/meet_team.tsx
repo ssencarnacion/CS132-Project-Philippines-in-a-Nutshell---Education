@@ -7,7 +7,7 @@ import Ram from './images/ram.jpg';
 export default function MeetTeam() {
     return (
         <div className="mt-10 pl-36 pr-36">
-        <h1 className="font-bold text-left text-3xl italic m-1 mt-10">
+        <h1 className="font-bold text-left text-4xl italic m-1 mt-10">
           Meet the Team!
         </h1>
         <div className="flex justify-center mt-5 space-x-4">
