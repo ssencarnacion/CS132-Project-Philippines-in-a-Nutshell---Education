@@ -11,10 +11,10 @@ export default function WhatNow() {
 
                 <p className="text-justify text-black text-m mt-2 text-xl">
                 We have the <b>following recommendations</b> based on our results and limitations to further improve and explore data regarding educational access in the Philippines:<br></br><br></br>
-                • Features of the FLEMMS dataset do not include potential factors that influence education access such as household income, political, and others. <br></br><br></br>
-                • Factors and circumstances of each region could be included in the scope of research to further explore the main factors that influence education access<br></br><br></br>
-                • Capability to access education (i.e some people have the means to take education but chose not to) could be discussed and explored<br></br><br></br>
-                • Measuring the quality of education in our country could provide us with more insights about the issues faced by the education system </p>
+                • Features of the FLEMMS dataset do not include potential factors that influence education access such as household income, political influences, and others. <br></br><br></br>
+                • Factors and circumstances of each region could be included in the scope of research to further explore the main factors that influence education access.<br></br><br></br>
+                • Capability to access education (i.e some people have the means to take education but chose not to) could be discussed and explored.<br></br><br></br>
+                • Measuring the quality of education in our country could provide us with more insights about the issues faced by the education system. </p>
 
             </div>
         </>
