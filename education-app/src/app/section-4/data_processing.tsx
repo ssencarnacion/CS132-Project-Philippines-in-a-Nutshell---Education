@@ -8,7 +8,8 @@ export default function DataProcessing() {
                 </p>
                 <br></br>
                 <p className="text-justify text-blue-700 text-m mt-2 text-xl">
-                    <i>"Access to education includes: on-schedule enrolment and progression at an appropriate age, regular attendance, learning consistent with national achievement norms, a learning environment that is safe enough to allow learning to take place, and opportunities to learn that are equitably distributed" (Lewin, 2015).</i>
+                    <i>"Access to education includes: on-schedule enrolment and progression at an appropriate age, regular attendance, learning consistent with national achievement norms, a learning environment that is safe enough to allow learning to take place, and opportunities to learn that are equitably distributed" 
+                        (<a href="https://learningportal.iiep.unesco.org/en/glossary/access-to-education">Lewin, 2015</a>).</i>
                     {/* Lewin, Keith M. 2015. Educational access, equity, and development: planning to make rights realities. Fundamentals of Educational Planning 98. Paris: UNESCO-IIEP. */}
                 </p>
                 <br></br>
